@@ -1,12 +1,14 @@
-p{
+body{
 	font: 14px/1.3 Symbol;
 }
-body {
-	background-image: url(bg.png);
-	background-attachment:fixed;
+#number1 ul {
+	list-style-type: square;
 }
-#elem {
-	background-image: url(bg.png);
+#number2 ul {
+	list-style-type: circle;
+}
+#number3 ul {
+	list-style-type:none;
 }
 .layer{
 	height: 100%;
