@@ -1,11 +1,11 @@
 p{
 	font: 14px/1.3 Symbol;
 }
-p{
-	color: rgb(0, 255, 119);
+#elem + li{
+	color: rgb(106, 255, 0);
 }
-p {
-	font: 18px/1.3  italic;
+
+.elem + li {
 	color: red;
 }
 .layer{
