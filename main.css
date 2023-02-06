@@ -41,6 +41,26 @@ body{
 	height: 100px;
 	border: 1px solid green;
 }
+#number3_1{
+	width: 200px;
+	border: 1px solid orange;
+}
+#number3_2 {
+	height: 60px;
+	border: 1px dashed blue;
+	margin: 80px 50px 20px;
+}
+
+
+#number4_1{
+	width: 300px;
+	border: 1px solid orange;
+}
+#number4_2 {
+	height: 60px;
+	border: 1px dashed blue;
+	margin: 30px 70px 50px;
+}
 .layer{
 	height: 100%;
 	width: 100%;
