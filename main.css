@@ -10,6 +10,9 @@ p{
 #number3 {
     color: rgb(200, 255, 0);
 }
+#number4 li.text {
+    color: red;
+}
 .layer{
 	height: 100%;
 	width: 100%;
