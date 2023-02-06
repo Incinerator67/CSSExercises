@@ -1,16 +1,7 @@
 p{
 	font: 14px/1.3 Symbol;
 }
-#number2 {
-	color: rgb(128, 0, 119);
-}
-#number1 {
-	color: rgba(0, 76, 255, 0.052);
-}
-#number3 {
-    color: rgb(200, 255, 0);
-}
-#number4 li.text {
+.header.content.footer {
     color: red;
 }
 .layer{
