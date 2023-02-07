@@ -1,11 +1,24 @@
 body{
 	font: 14px/1.3 Symbol;
 }
-span {
-	width: 100px;
-	height: 100px;
+.parent {
 	border: 1px solid red;
-	display: inline-block;
+}
+
+.child,.child2,.child3 {
+	height: 100px;
+	width: 200px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+.child1 {
+	width: 150px;;
+}
+.child2 {
+	width: 300px;;
+}
+.child3 {
+	width: 400px;
 }
 .layer{
 	height: 100%;
