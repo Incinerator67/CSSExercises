@@ -6,6 +6,10 @@ div {
 	border: 1px solid red;
 	text-align: justify;
 }
+p {
+	margin-left: 30px;
+	border: 1px solid green;
+}
 img {
 	width: 100px;
 	float: right;
