@@ -1,10 +1,7 @@
 body{
 	font: 14px/1.3 Symbol;
 }
-div {
-	width: 100px;
-	height: 100px;
-	margin-bottom: 20px;
+span {
 	border: 1px solid red;
 }
 .layer{
