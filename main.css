@@ -1,14 +1,11 @@
 body{
 	font: 14px/1.3 Symbol;
 }
-p,a {
-	display: inline;
-	border: 1px solid red;
-}
-a {
+span {
 	width: 100px;
 	height: 100px;
-	margin-top: 20px;
+	border: 1px solid red;
+	display: inline-block;
 }
 .layer{
 	height: 100%;
