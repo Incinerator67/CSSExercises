@@ -2,31 +2,38 @@ body{
 	font: 14px/1.3 Symbol;
 }
 .parent {
-	display: flex; /* потомки будут флекс элементами */
+	display: flex;
+	justify-content: center;
+	height: 400px;
 	width: 500px;
-	height: 200px;
 	border: 1px solid red;
 }
+.parent1 {
+	display: flex;
+	justify-content: center;
+	height: 400px;
+	width: 500px;
+	border: 1px solid red;
+	justify-content: space-between;
+	}
 .parent2 {
-	display: flex; /* потомки будут флекс элементами */
+	display: flex;
+	justify-content: center;
+	height: 400px;
 	width: 500px;
 	border: 1px solid red;
-}
+	justify-content: space-around;
+	}
 .parent3 {
-	display: flex; /* потомки будут флекс элементами */
+	display: flex;
+	justify-content: center;
+	height: 400px;
+	width: 500px;
 	border: 1px solid red;
-}
-.parent4	{
-	display: inline-flex;
-	border: 1px solid red;
-}
-.parent5	{
-	display: inline-flex;
-	padding: 10px;
-	border: 1px solid red;
-}
+	justify-content: space-evenly;
+	}
 .child {
-	width: 50px;
+	width: 70px;
 	height: 50px;
 	border: 1px solid green;
 }
