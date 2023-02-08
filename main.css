@@ -1,12 +1,13 @@
-body{
-	font: 14px/1.3 Symbol;
-}
-div {
+body{font: 14px/1.3 Symbol;}
+.parent {
 	border: 1px solid red;
 }
-img {
+.parent img {
 	width: 100px;
-	float: right;
+	float: left;
+}
+.clearfix {
+	clear: both;
 }
 .layer{
 	height: 100%;
