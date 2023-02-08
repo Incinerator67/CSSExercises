@@ -2,11 +2,17 @@ body{font: 14px/1.3 Symbol;}
 .parent {
 	border: 1px solid red;
 }
-.parent img {
-	width: 100px;
-	float: left;
+.parent {
+	border: 1px solid red;
+	text-align: justify;
 }
-.clearfix {
+.child {
+	float: left;
+	width: 200px;
+	height: 100px;
+	border: 1px solid green;
+}
+.child {
 	clear: both;
 }
 .layer{
