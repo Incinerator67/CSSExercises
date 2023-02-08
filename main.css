@@ -1,12 +1,13 @@
 body{font: 14px/1.3 Symbol;}
-.parent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 3px solid red;
-    height: 220px;
+.parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+    /*flex-direction: row-reverse;*/ /* главная ось справа налево */
+    /*flex-direction: column;*/ /* главная ось сверху вниз */
+    /*flex-direction: column-reverse;*/ /* главная ось снизу вверх */
+	justify-content: flex-start; /* блоки к началу главной оси */
+    /*justify-content: flex-end;*/ /* блоки к концу главной оси */
 }
-
 .child {
     width: 50px;
     height: 50px;
