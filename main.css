@@ -1,19 +1,13 @@
 body{font: 14px/1.3 Symbol;}
 .parent {
 	border: 1px solid red;
-}
-.parent {
-	border: 1px solid red;
 	text-align: justify;
 }
 .child {
-	float: left;
+	float: right;
 	width: 200px;
-	height: 100px;
+	height: 50px;
 	border: 1px solid green;
-}
-.child {
-	clear: both;
 }
 .layer{
 	height: 100%;
