@@ -1,14 +1,9 @@
 body{font: 14px/1.3 Symbol;}
 .parent	{
 	display: flex;
-	flex-direction: row; /* главная ось слева направо */
-    /*flex-direction: row-reverse;*/ /* главная ось справа налево */
-    /*flex-direction: column;*/ /* главная ось сверху вниз */
-    /*flex-direction: column-reverse;*/ /* главная ось снизу вверх */
-	justify-content: flex-start; /* блоки к началу главной оси */
-    /*justify-content: flex-end;*/ /* блоки к концу главной оси */
-    align-items:     flex-start; /* блоки к началу поперечной оси */
-    align-items:     flex-end;   /* блоки к концу поперечной оси */
+	flex-direction:column;
+    justify-content: flex-end;
+	align-items: center; /* центрируем по побочной оси */
 }
 .child {
     width: 50px;
